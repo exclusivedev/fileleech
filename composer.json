@@ -1,0 +1,27 @@
+{
+    "name": "exclusivedev/fileleech",
+    "description": "Manage File Attachments Laravel Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tom",
+            "email": "tomer@appliancesconnction.com"
+        }
+    ],
+    "require": {},
+
+  "autoload": {
+    "psr-4": {
+      "ExclusiveDev\\FileLeech\\": "src"
+    }
+  },
+
+  "extra": {
+      "laravel": {
+          "providers": [
+            "ExclusiveDev\\FileLeech\\Providers\\ServiceProvider",
+	          "ExclusiveDev\\FileLeech\\Providers\\AuthServiceProvider"
+          ]
+      }
+  }
+}
